@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxComposableArchitecture'
-  s.version          = '0.17.0'
+  s.version          = '0.45.1'
   s.summary          = 'The Composable Architecture (TCA, for short) is a library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.'
   s.description      = <<-DESC
   The Composable Architecture (TCA, for short) is a library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind. 
@@ -16,20 +16,20 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/tokopedia/RxComposableArchitecture'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tokopedia' => 'ios@tokopedia.com' }
   s.source           = { :git => 'https://github.com/tokopedia/RxComposableArchitecture.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/tokopedia'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = [
     'Sources/RxComposableArchitecture/**/*',
   ]
-  s.dependency 'RxSwift', '5.1.1'
-  s.dependency 'RxCocoa', '5.1.1'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
   s.dependency 'CasePaths'
-  s.dependency 'XCTestDynamicOverlay'
+  s.dependency 'XCTestDynamicOverlay', :git => 'https://github.com/darindra23/xctest-dynamic-overlay'
+  s.dependency 'NSObject+Rx'
   
 end
