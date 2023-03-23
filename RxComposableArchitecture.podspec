@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'CasePaths'
-  s.dependency 'XCTestDynamicOverlayLatest', '>=0'
+  s.dependency 'XCTestDynamicOverlayLatest'
   s.dependency 'NSObject+Rx'
   
 end
