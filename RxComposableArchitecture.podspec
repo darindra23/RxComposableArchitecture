@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'CasePaths'
-  s.dependency 'XCTestDynamicOverlay', :git => 'https://github.com/darindra23/xctest-dynamic-overlay'
+  s.dependency 'XCTestDynamicOverlayLatest'
   s.dependency 'NSObject+Rx'
   
 end
