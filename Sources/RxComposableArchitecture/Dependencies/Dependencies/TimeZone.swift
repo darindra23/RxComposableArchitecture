@@ -1,5 +1,5 @@
 import Foundation
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 #if swift(>=5.6)
     extension DependencyValues {

@@ -9,7 +9,7 @@ import CasePaths
 import Foundation
 import RxComposableArchitecture
 import RxSwift
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 struct Environment: ReducerProtocol {
     struct State: Equatable {

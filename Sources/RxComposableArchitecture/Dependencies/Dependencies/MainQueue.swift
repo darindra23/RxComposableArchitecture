@@ -76,7 +76,7 @@ extension DependencyValues {
 }
 
 #if DEBUG
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 extension DependencyValues.MainQueueKey: TestDependencyKey {
     static let testValue: SchedulerType = UnimplementedSchedulerType()
 }

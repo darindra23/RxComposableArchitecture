@@ -1,7 +1,7 @@
 #if DEBUG
 import Foundation
 import RxSwift
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 /// A testable runtime for a reducer.
 ///
@@ -1509,7 +1509,7 @@ extension TestStore where ScopedState: Equatable, Action: Equatable {
     ///     "CasePaths",
     ///     "ComposableArchitecture",
     ///     "IdentifiedCollections",
-    ///     "XCTestDynamicOverlay",
+    ///     "XCTestDynamicOverlayLatest",
     ///   ]
     /// }
     /// ```

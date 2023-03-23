@@ -1,5 +1,5 @@
 import Foundation
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 #if canImport(FoundationNetworking)
     import FoundationNetworking

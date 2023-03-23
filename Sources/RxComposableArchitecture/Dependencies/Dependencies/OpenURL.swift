@@ -1,4 +1,4 @@
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 #if canImport(AppKit)
     import AppKit

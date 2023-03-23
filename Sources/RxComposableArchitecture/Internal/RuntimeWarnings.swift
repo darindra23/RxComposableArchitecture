@@ -33,7 +33,7 @@ func runtimeWarn(
 }
 
 #if DEBUG
-    import XCTestDynamicOverlay
+    import XCTestDynamicOverlayLatest
 
     #if canImport(os)
         import os

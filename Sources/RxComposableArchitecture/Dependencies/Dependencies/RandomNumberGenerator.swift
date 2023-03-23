@@ -1,5 +1,5 @@
 import Foundation
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 extension DependencyValues {
     /// A dependency that yields a random number generator to a closure.

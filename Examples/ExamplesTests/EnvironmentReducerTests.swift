@@ -8,7 +8,7 @@
 import XCTest
 import RxComposableArchitecture
 import RxSwift
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 @testable import Examples
 

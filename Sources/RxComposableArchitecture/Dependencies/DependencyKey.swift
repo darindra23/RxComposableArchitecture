@@ -1,4 +1,4 @@
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 /// A key for accessing dependencies.
 ///

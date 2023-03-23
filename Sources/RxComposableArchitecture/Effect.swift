@@ -479,7 +479,7 @@ extension Effect {
 // MARK: - Testing Effects
 
 #if DEBUG
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 extension Effect {
     /// An effect that causes a test to fail if it runs.

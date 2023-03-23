@@ -1,5 +1,5 @@
 import Foundation
-import XCTestDynamicOverlay
+import XCTestDynamicOverlayLatest
 
 /// A collection of dependencies that is globally available.
 ///
