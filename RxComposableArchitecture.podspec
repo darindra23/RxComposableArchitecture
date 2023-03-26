@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   s.source_files = [
     'Sources/RxComposableArchitecture/**/*',
   ]
-  s.dependency 'RxSwift'
-  s.dependency 'RxCocoa'
+  s.dependency 'RxSwift', '5.1.1'
+  s.dependency 'RxCocoa', '5.1.1'
   s.dependency 'CasePaths'
   s.dependency 'XCTestDynamicOverlayLatest'
   s.dependency 'NSObject+Rx'
